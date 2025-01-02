@@ -6,5 +6,5 @@ export default function Header() {
   console.log(formattedDate);
   // Example Output: (08/12/24)(Sunday)
 
-  return <div className={styles.header}>Todo List On {formattedDate} </div>;
+  return <div className={styles.header}>Ravi's Todo List On {formattedDate} </div>;
 }

@@ -8,7 +8,7 @@ export default function ToDoList({ todos, setTodos }) {  // Destructure todos
 
     return (
         <div className={styles.todoList}>
-            {sortedTodos.length === 0 ? (<p>No todos yet. Add some!</p>) : ""}
+            {sortedTodos.length === 0 ? (<p>No todos yet. Add some man!</p>) : ""}
             {sortedTodos.map((item, index) => (
                 <ToDoItem key={index.name} item={item} todos={todos} setTodos={setTodos} />
             ))}
